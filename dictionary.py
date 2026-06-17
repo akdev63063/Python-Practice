@@ -20,11 +20,21 @@ print(dic1.keys())
 print(dic1.values())
 # 4. items() Key-value pairs return karta hai.
 print(dic1.items())
+#update() Dictionary update karta hai.
+dic1.update({6 : "shivu"})
+print(dic1)
+# 6. pop() Specific key remove karta hai.
+print(dic1.pop(1))
+# 7. popitem() Last inserted item remove karta hai
+print(dic1.popitem())
+# 9. copy() Dictionary ki copy banata hai.
+dic2 = dic1.copy()
+print(dic2)
+# 10. setdefault() Key exist na ho to value insert karta hai.
+print(dic1.setdefault(7,"ak"))
+print(dic1)
+# Dictionary Traversal
+for key, value in dic1.items():
+    print(key, value)
 
-
-
-
-
-
-
-
+print(dic2.clear())
