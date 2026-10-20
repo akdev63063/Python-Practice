@@ -8,7 +8,9 @@ Given Input:
 Case 1: number1 = 20, number2 = 30
 Case 2: number1 = 40, number2 = 30 """
 
-def product_and_multiply(a,b):
+"""----------------TYPE ONE SOLUTION--------------"""
+
+"""def product_and_multiply(a,b):
 
     if (a * b) <= 1000:
         return a * b
@@ -16,4 +18,5 @@ def product_and_multiply(a,b):
         return a + b
 
 result = product_and_multiply(40, 30)
-print("Result of both num",result)
+print("Result of both num",result)"""
+
