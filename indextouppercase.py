@@ -17,7 +17,8 @@ def myfun():
     for i in range (len(l1)):
         if i % 2 == 0:
             l1[i] = l1[i].upper()
-    print(l1)
+    s2 = " ".join(l1)
+    print(s2)
 
 myfun()
 
