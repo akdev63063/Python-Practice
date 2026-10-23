@@ -8,6 +8,15 @@ b = temp
 print(f"After swapping: a = {a}, b = {b} ")"""
 
 #Write a Python program to convert kilometers to miles.
-kilo = float(input("Enter distance in kilometers: "))
+"""kilo = float(input("Enter distance in kilometers: "))
 miles = kilo * 0.621371
-print(f"After Converting km to miles : {miles} miles")
+print(f"After Converting km to miles : {miles} miles")"""
+
+#Write a Python program to display calendar.
+import calendar
+
+year = int(input("Enter year: "))
+mon = int(input("Enter month: "))
+
+cal =calendar.month(year,mon)
+print(cal)
